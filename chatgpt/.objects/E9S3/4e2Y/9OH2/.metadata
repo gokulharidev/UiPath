@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge ChatGPT",
+  "Type": "Screen",
+  "Id": "9OH23_NVgU6Zxj28Fv8JLw",
+  "Reference": "P0VWJfmeX0-eQKHtQDwJTw/9OH23_NVgU6Zxj28Fv8JLw",
+  "ParentRef": "P0VWJfmeX0-eQKHtQDwJTw/4e2Y_gEpJUCUU0Hb7sc6GA",
+  "Created": "2024-07-22T14:33:18.2755639Z",
+  "Updated": "2024-07-22T14:33:18.2755639Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "probability&"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "probability&Sequence_1",
+        "fAvourable&Sequence_1",
+        "outcomeS&Sequence_1",
+        "probability&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "probabaility calculation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "probability&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "prob",
+        "numofFav",
+        "numofOutcome"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

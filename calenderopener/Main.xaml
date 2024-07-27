@@ -1,0 +1,123 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1410.4,743.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="512,673.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: Mail - gokul hari - Outlook" sap:VirtualizedContainerService.HintSize="449.6,584.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="b11bc436-386e-4c26-a004-f143f66ef125" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,270.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'grouping'" sap:VirtualizedContainerService.HintSize="353.6,182.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b11bc436-386e-4c26-a004-f143f66ef125" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="24, 140, 25, 25" CvType="Icon" DesignTimeRectangle="24, 139, 26, 28" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Mail - gokul hari - Outlook' /&gt;&lt;ctrl name='Mail - gokul hari - Outlook' role='document' /&gt;&lt;ctrl name='left-rail-appbar' role='grouping' /&gt;&lt;ctrl name='Calendar' role='grouping' /&gt;&lt;ctrl name='Calendar' role='push button' /&gt;&lt;ctrl role='grouping' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Mail - gokul hari - Outlook' /&gt;&lt;ctrl name='Mail - gokul hari - Outlook' role='document' /&gt;&lt;ctrl name='left-rail-appbar' role='grouping' /&gt;&lt;ctrl name='Calendar' role='grouping' /&gt;&lt;ctrl name='Calendar' role='push button' /&gt;&lt;ctrl role='grouping' automationid='' /&gt;" Guid="1628cad2-bfe2-49a6-8fa5-288080422f5a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFoSURBVFhH7ZZPSwJBHIb7HHWJhBSsCENCKOrSQaOyNYk8FBF0KQoJpOif/cFC9FIdWyFtcQ+7n/GNd8AOy7it47ZLtIcHhvnN+3sYZp1xZHQijjCIxIERiQPDkziZmsdcZnEgmJH16uEqHk9M4fr2DpZlwbbtgWCGWfaQ9XYVH5+W0el8YnVzS1p3gxlm2UNWdxU/1xuoXFxKa164uqmKHrLaj+J6o4m9g0MlmFUWd7smPtptJZhVFp9VzqU1LzD7d8VjsYT4Ql9e35BeWMbkdArV+0cBx5xjjWu4lhlfxLwUeG78jXIuu66JMyQcc441ruFaZnwRh7ZjFXwR8+p7qD3BMAzkNjSxw3ddF3DszBJfxDPpDPRWS5zj0UkZuXwBpmkKOHZmiS9isrSSRWl3H7HkrDhHbbuEfHHn+0ydDCXmfSureUH5ruYXyhdmTSv23VU/hnqdQnuPewT+D+Q3icSB8d/EcXwBCkr/e+zwof8AAAAASUVORK5CYII=" InformativeScreenshot="b33ff696c79b57561e466c63951fb5cf.png" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='Mail - gokul hari - Outlook' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1218" FilePath="Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows" IconBase64="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" InformativeScreenshot="adc3544d1562c047fc88b3e5ffec3cda.png" IsExactTitleEnabled="True" Selector="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='Mail - gokul hari - Outlook' /&gt;" Title="Mail - gokul hari - Outlook" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="UzdiKa2RFE6he_rDntLxCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1218" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACtElEQVRYR82XwW3CQBBFaQCJAkDKHSqADuiAG0c64BhOdEAHdEABSFAAggYiOqCDjd/aX5msZ41BCuRLK8x6PfPmz9rgjhRC6BXjsxj7YvyVTsWYVyl/VEx+FOOLFS8SuT6q9BHglcklcvZIPo9f36MVAPSltY7HY1gul2E2m8Wx3W7D9Xqtzj6sPQCtRJLpdBq63W4YDAZhNBrFT74Ph8MI8oxaAdxut5iEhOv1On6XLpdLhAFkMpnEY0DbOtMKAMtJsNvtqplSgOgccCSmLYDImfP5XK321QhAgs1mEwMtFotqthTz/X4/JuKcdQWxV3CDNU1OZAFsAgbfEZaPx+M4R8UkklIIEhODdTm5APSPBFhJzznWJqNaKrObjkTMs45PW7FalMJJLgCWk4SLqDAF0DHnAaRKEgmC65lH7BvmcM5TDUDVy9ocAIFJxDmSS1TPRhSIHLCtsqoB6ALJA5BDnGOe49R6zXMto3ULCISlkgfAsAFt1VhvQbSHtIlT1QBYyAUKQu9SAB1bkUhwOGTXcBdQlOdCDYBFJLR9BUo26ymXCgBtPNbZIg6Hw68irGoASPtAARHBFNjCIaBpgdbzaQFUlI0nuQCynYGd9hYiKC7IZj2w9DuBcgDePnABCCxi7WSqV0AkN3hYsVFZmwNQPO9WbASgcugVkIH92E3FtqIcAEO3rafGFiggIpDdA4BJakMKQCEk59i20coFQLp1rO2psNT+MGmtABg45VkvZQH4HScAFaQQfCch57GWSq1kOc5YpzxlARDPe21CEtIC/dnw/h0hknI+hcqpEQBRLT0HABgBsBGtM4Do+cGatroL4Mn2GCi5JLB7tlsB8NSrGNVjNwkZVN+02TI6AbAqj9+iOQC8lL7l1ax6M/wHL6dSMcl74kOvag+K/UbLe2XGTucbnVBY94fcQl8AAAAASUVORK5CYII=" Selector="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" Title="ChatGPT" Url="https://chatgpt.com/">
+      <imageRef attrName="InformativeScreenshot" originalValue="22d5b82bd9cefe3682d123309b4a34a5.jpg" xmlns="">0FuphN774XUWSYJbHKE-3Zg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

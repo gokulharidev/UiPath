@@ -1,0 +1,164 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="summarize" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="view" Type="OutArgument(x:String)" />
+    <x:Property Name="content" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1410.4,1241.6</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>summarize_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="summarize" sap:VirtualizedContainerService.HintSize="512,1176.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Text Summarizer | QuillBot AI" sap:VirtualizedContainerService.HintSize="449.6,983.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_11" InteractionMode="DebuggerApi" ScopeGuid="9c7b0128-31bb-440b-8eae-758ea4af07a7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,726.4" sap2010:WorkflowViewState.IdRef="Sequence_13">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter or'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="9c7b0128-31bb-440b-8eae-758ea4af07a7" Text="[content]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://quillbot.com/summarize" CvTextArea="210, 303, 449, 24" CvTextArgument="Enter or paste your text and press &quot;Summarize.&quot;" CvType="Text" DesignTimeRectangle="210, 303, 449, 24" DesignTimeScaleFactor="1.25" ElementType="Text" Guid="3376c38d-99af-4cd3-8768-5c8fdab47dc4" InformativeScreenshot="82b8fce71aa418669151ac7a19a476ef.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Text Summarizer | QuillBot AI' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V3" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Summarize'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9c7b0128-31bb-440b-8eae-758ea4af07a7" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://quillbot.com/summarize" CvElementArea="816, 835, 163, 56" CvTextArea="841, 852, 113, 20" CvTextArgument="Summarize" CvType="Button" DesignTimeRectangle="820, 837, 159, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Summarize' parentid='root-client' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Summarize' parentid='root-client' tag='BUTTON' type='button' class='MuiButton-root MuiButton-primary MuiButton-primaryPrimary MuiButton-sizeLarge MuiButton-primarySizeLarge MuiButtonBase-root css-18dno4w' check:innerText='Summarize' /&gt;" Guid="7f08c2ef-2ba3-45fc-904b-663358f4fdfd" InformativeScreenshot="bd8f9c2a9828936e9c339b64d2f157ec.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Text Summarizer | QuillBot AI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="353.6,182.4" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9c7b0128-31bb-440b-8eae-758ea4af07a7" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://quillbot.com/summarize" DesignTimeRectangle="1702, 847, 30, 30" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='svg' type='download' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='svg' type='download' class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-p6nd68' aaname='' /&gt;" Guid="ba655df7-63cd-496c-a3d4-4ab410d88a2a" InformativeScreenshot="a9283038d26ac09d9058ad86e0ecf110.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Text Summarizer | QuillBot AI' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAwCAYAAABT9ym6AAAABGdBTUEAALGPC/xhBQAABBlJREFUaEPdWkFPE0EU5if4E/gJ/Qk9tg0HDrTbeMJ4xMSe8KhwlBiIdIsaDUQ9aDi0J0xAA1EDCRfFaPRg7QUF0aRCMOFW37fMwOzwdnd2d1oqX/IFs52ded++N/PezDhgC4UHxUy+6lQKc8583i29y7tOi9g5YdVpe89rTr3glm4NzY5ks/PDl8Tr54uhuZEsGTlzbKRidBx6woqjosvewhNQc1ZZw5Kz1TNBubnyoA0BIw+vdO6/WeisfF7rrH/b7Iw+vqb+3l1BBde5niqEBCFgg4yX2D3YY9vRB5vOTlueQ+iUHSwmn24uesYfHv31CNS3lti2gi1EgTAjObCq2JoL994ueIYDCCmJsWfjbHuF6cXkqqX3TMexiTkgjV/5snbijUa4N1QmF2MrnEApAvOh+avl/Ru486rGtg9gfDGUsG4yHSUivCGhzpFlEse1DyWFuTAxGt4Sy3WSkPjqMBwhBY9I3GhMsO2jiKpAmBoOauwvLVJSQnqj+bvVGXseOcFDSXkmI8zlUXDLo9yLSYnEBy+o3gjMG3EYFWLUyKo3Jl5MeWElvYFJr2XxxMzNlrPCbD9sewPE/PA8IlYtZHWuXSIGecVW4lOJ0JJegRiuTRqeKWFMVyoYhiJva/tTV2m6GJxZwbAh4hrqVHNCN4E5xY1/hnp4mYZV3wkh+sKLHhiV5/0o5GT1GiZFXAOO/SiEoqniCcEhANuAYV8KcYszVoQgT8htqyzPTYBsL9/TEUcITm08IXESoS4EhuOZ/H2cCkETQITa7wdaclX0XAjWfL2NCSaXpnzvoAJQkUhIfrY0zDXgyHkESTLo9yDohurhldAjxQzXgCNnKHZ82FvIusoUOHSYpPIFf3XEEiKz+4VZfgF68P8nRCBXdRpcI539KMRfolyUotG0jO9DIafzQ8KkAsZSi6Wy20Ri5cbXyZ5zmYaXCbEcB1HNO2mYc52GMN0PsQynPm2PCj+I4d6Ly8DDB8CWVyAmiFY8UnPqwuRgUKbE/R/fARHxu7u/1zWanLQYnQEX3MuhJYte4NkGV4iqzLllsyNTICzEzlMIrjmEiebIV8sLXGfnKCT5HYmcL5igGEDfEMWl+hFQ9cqJr95mYRysbKiklfOtdLdW3pJMKwSSFAAhST2ivisPsmG0NFiOIYUA2O+UHl1Nf/UmQX3OoGPVGPyVSS6KgPoujIXxEihJsFoBqpCDo0Ncb9kRIbHd/lFZ+viyrX5VDBrFr+KqTRUid5YIr/Xm8T074xF8vO78Fw+4+Mnm4mlAx4AelnJnCc+ou8Tvf3ZaoVnbJmi8LHHVG9kQuhAG7Z39n+Y5wiZo8EEiPHR6VRuAACFtIj5IbzxgAjImQ6wQ68I4n7jXzY327eW7eIbfEf/wqqU5MDDwD2A5wXODw4DqAAAAAElFTkSuQmCC" InformativeScreenshot="57afec54d3b165999603d1185ae4c66c.jpg" Selector="&lt;html app='msedge.exe' title='Text Summarizer | QuillBot AI' /&gt;" Title="Text Summarizer | QuillBot AI" Url="https://quillbot.com/summarize" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <Assign sap:VirtualizedContainerService.HintSize="449.6,104.8" sap2010:WorkflowViewState.IdRef="Assign_4">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[view]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">["view in downloads"]</InArgument>
+      </Assign.Value>
+    </Assign>
+  </Sequence>
+</Activity>

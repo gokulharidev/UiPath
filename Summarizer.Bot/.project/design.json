@@ -1,0 +1,15 @@
+{
+  "Tags": [
+    {
+      "Key": "summarize"
+    },
+    {
+      "Key": "short"
+    },
+    {
+      "Key": "pdf summarize"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true
+}

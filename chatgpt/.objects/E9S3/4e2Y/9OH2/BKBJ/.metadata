@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'ChatGPT can'",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "BKBJP2UDBEa-DT2n4cZR9A",
+  "Reference": "P0VWJfmeX0-eQKHtQDwJTw/BKBJP2UDBEa-DT2n4cZR9A",
+  "ParentRef": "P0VWJfmeX0-eQKHtQDwJTw/9OH23_NVgU6Zxj28Fv8JLw",
+  "Created": "2024-07-22T14:33:18.7993978Z",
+  "Updated": "2024-07-22T14:33:18.7993978Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
